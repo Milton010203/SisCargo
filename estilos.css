@@ -1,0 +1,72 @@
+body {
+    background-color: #f2f3f5;
+    padding-top: 80px;
+}
+
+.navbar {
+    background-color: #e02a2a;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-text {
+    color: white;
+    margin-right: 10px;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.alert-custom {
+    background-color: #eef5ff;
+    border: 1px solid #cddbf7;
+}
+
+.card-custom {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.quick-actions .card {
+    border: none;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    transition: background 0.3s;
+}
+
+.quick-actions .card:hover {
+    background-color: #eef5ff;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+.row{
+    justify-content: center;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+}
+
+.text-primario{
+    --bs-text-opacity: 1;
+    color: #e02a2a;
+}
+.nounder{
+    text-decoration: none;
+}
